@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import AllCards from "./AllCards";
 
 const Hero = ({data}) => {
@@ -15,14 +16,14 @@ const Hero = ({data}) => {
         </p>
 
         <div className="flex gap-3">
-          <button className="flex items-center gap-2 btn bg-[#ecebee42] border border-[#d2d2d6be] font-semibold px-4 py-2 rounded-sm hover:bg-[#b1b1b33b] transition-all duration-300">
+          <NavLink target="blank" to={'https://play.google.com/store/apps?hl=en'} className="flex items-center gap-2 btn bg-[#ecebee42] border border-[#d2d2d6be] font-semibold px-4 py-2 rounded-sm hover:bg-[#b1b1b33b] transition-all duration-300">
             <img className="w-7" src="/pics/play.png" alt="Google Play" />
             Google Play
-          </button>
-          <button className="flex items-center gap-2 btn bg-[#ecebee42] border border-[#d2d2d6be] font-semibold px-4 py-2 rounded-sm hover:bg-[#b1b1b33b] transition-all duration-300">
+          </NavLink>
+          <NavLink target="blank" to={'https://www.apple.com/store'} className="flex items-center gap-2 btn bg-[#ecebee42] border border-[#d2d2d6be] font-semibold px-4 py-2 rounded-sm hover:bg-[#b1b1b33b] transition-all duration-300">
             <img className="w-7" src="/pics/game.png" alt="Google Play" />
-            Google Play
-          </button>
+            Apple Store
+          </NavLink>
         </div>
 
         <img src="/pics/hero.png" alt="App preview" className="mt-8 w-4/5 lg:w-3/5" />

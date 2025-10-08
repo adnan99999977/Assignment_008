@@ -6,6 +6,8 @@ import Layout from './layouts/Layout'
 import Home from './pages/Home'
 import Apps from './pages/Apps'
 import Installation from './pages/Installation'
+import ErrorForUrl from './pages/ErrorForUrl'
+import Error from './pages/Error'
 
 
 const router = createBrowserRouter([
@@ -15,7 +17,7 @@ const router = createBrowserRouter([
     children:[
       {
          index:true,
-         element:<Home/>,
+         element:<Home/>
       },
       {
          path:'home',
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
          const res = await fetch('/data.json')
          const data = await res.json()
           return data
-         }
+         },
          
       },
       {
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
          path:'installation',
          element:<Installation/>
       },
+      {
+        path:'*',
+        element:<ErrorForUrl/>
+      }
       
     ]
   }
