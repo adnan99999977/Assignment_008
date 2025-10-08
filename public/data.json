@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/gM2j17XY/9391703.png",
+    "title": "TaskMaster",
+    "companyName": "Productivity Co",
+    "description": "TaskMaster is an advanced productivity app designed to help individuals and teams manage their tasks efficiently. You can create detailed task lists, set priorities, add deadlines, and track progress in real-time. The app features smart notifications and reminders so you never miss an important deadline. With collaborative tools, you can share tasks with team members, assign responsibilities, and monitor progress across projects. The intuitive interface makes it easy for beginners while offering advanced features for power users. Analytics and performance charts allow you to identify productivity trends and optimize workflows. TaskMaster is ideal for professionals, students, and anyone looking to stay organized and focused.",
+    "size": 25,
+    "reviews": 1500,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/1fnn8kpF/8380000.jpg",
+    "title": "FitBuddy",
+    "companyName": "Health Apps Ltd",
+    "description": "FitBuddy is your ultimate personal fitness companion, providing detailed workout plans and tracking capabilities to help you stay in shape. It offers guided exercises for all levels, from beginners to advanced athletes, including strength training, cardio, and flexibility routines. Users can set goals, monitor progress, and get personalized recommendations based on performance and health data. FitBuddy also tracks calories burned, heart rate, and steps, making it easy to understand your overall fitness. Social features allow sharing achievements with friends, joining challenges, and staying motivated. Regular app updates bring new workouts, tips, and nutritional advice to help you achieve a healthier lifestyle. FitBuddy is perfect for anyone looking to improve fitness, lose weight, or stay active consistently.",
+    "size": 35,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1160 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/Zz4Mv9Nf/9391714.png",
+    "title": "BudgetPro",
+    "companyName": "Finance Solutions",
+    "description": "BudgetPro helps you take control of your finances with intuitive tools for budgeting, expense tracking, and savings planning. Users can categorize expenses, set monthly limits, and receive alerts when they are overspending. BudgetPro generates detailed financial reports, helping you analyze income, spending patterns, and potential areas for savings. It supports multiple accounts, bills management, and reminders for due payments to avoid late fees. The app also includes investment tracking, goal setting, and personalized advice to grow your wealth. A secure login ensures your financial data is safe, while cloud syncing allows access across all devices. BudgetPro is perfect for individuals, families, and anyone looking to manage their money smarter and efficiently.",
+    "size": 30,
+    "reviews": 1200,
+    "ratingAvg": 4.2,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/0yJsx0q2/app-7234739-640.webp",
+    "title": "TravelMate",
+    "companyName": "Wanderlust Inc",
+    "description": "TravelMate is your ultimate travel companion that makes planning trips simple and exciting. From flight bookings to hotel reservations, itinerary management, and sightseeing recommendations, everything is available in one app. Users can explore popular destinations, read travel guides, and get tips from fellow travelers. TravelMate provides offline maps, real-time navigation, and safety alerts to ensure a stress-free journey. You can store travel documents securely, share trip plans with friends, and receive personalized recommendations based on your preferences. The app also includes local experiences, restaurant suggestions, and events to enrich your trips. Perfect for solo travelers, families, and adventure enthusiasts, TravelMate helps you explore the world effortlessly.",
+    "size": 45,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/Xx1YrJ32/demo-app-1.webp",
+    "title": "PhotoSnap",
+    "companyName": "Creative Labs",
+    "description": "PhotoSnap is a versatile photography app that allows users to capture, edit, and share stunning photos with ease. With a range of professional-grade filters, editing tools, and effects, you can enhance every shot to perfection. The app features an intuitive interface for both beginners and experienced photographers, enabling fine adjustments of brightness, contrast, saturation, and more. Users can organize photos into albums, add captions, and share directly to social media platforms. PhotoSnap also supports RAW image editing and high-resolution exports for professional use. Regular updates bring new filters, AI-enhanced editing tools, and creative tutorials. Perfect for photography enthusiasts and content creators who want to elevate their photo game.",
+    "size": 50,
+    "reviews": 2200,
+    "ratingAvg": 4.8,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1375 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/WW5d8xy7/demo-app-2.webp",
+    "title": "NewsFlash",
+    "companyName": "Global Media",
+    "description": "NewsFlash brings the latest news from around the world directly to your fingertips. Stay informed with breaking news alerts, in-depth articles, and live reports from multiple categories such as politics, sports, technology, and entertainment. Users can customize their news feed according to interests, bookmark articles for later, and share stories easily. The app also features offline reading, video news segments, and interactive polls. With a clean and responsive interface, navigating through articles is seamless and enjoyable. NewsFlash ensures you never miss important updates and keeps you connected to current events worldwide. Ideal for students, professionals, and anyone who wants a comprehensive news experience.",
+    "size": 40,
+    "reviews": 1700,
+    "ratingAvg": 4.3,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 810 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/WpcB7s0v/instagram-3814092-640.webp",
+    "title": "FoodieGo",
+    "companyName": "Gourmet Apps",
+    "description": "FoodieGo is a smart food delivery app that brings your favorite meals from local restaurants right to your doorstep. Browse menus, place orders, and track deliveries in real-time with a seamless and intuitive interface. FoodieGo offers personalized recommendations based on your preferences, ratings, and order history. Users can also schedule orders, apply discounts, and join loyalty programs to save more. The app supports multiple payment options, secure transactions, and contactless delivery. Discover new cuisines, rate your favorite dishes, and share experiences with friends. Perfect for food lovers looking for convenience, variety, and a delightful culinary experience.",
+    "size": 55,
+    "reviews": 2500,
+    "ratingAvg": 4.5,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1290 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/kgn9HZzN/demo-app-4.webp",
+    "title": "StudyPal",
+    "companyName": "EdTech Solutions",
+    "description": "StudyPal is a comprehensive learning app designed to support students of all ages in achieving academic success. It offers interactive lessons, quizzes, and exercises across multiple subjects such as math, science, languages, and history. Users can track progress, set learning goals, and access personalized recommendations to improve performance. The app also features collaborative tools for group studies, discussion forums, and live tutoring sessions. StudyPal provides offline access, making learning convenient anytime, anywhere. Engaging visuals, gamification elements, and performance analytics keep students motivated and help retain knowledge effectively. Perfect for self-learners, school students, and exam preparation enthusiasts.",
+    "size": 60,
+    "reviews": 1400,
+    "ratingAvg": 4.4,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+   {
+    "id": 9,
+    "image": "https://i.ibb.co.com/Y4zYLRkr/demo-app-3.webp",
+    "title": "WeatherWise",
+    "companyName": "ClimateTech",
+    "description": "WeatherWise is a comprehensive weather app that provides accurate, real-time forecasts and weather alerts for locations worldwide. It includes hourly, daily, and weekly forecasts, severe weather warnings, and live radar maps for tracking storms, rainfall, and temperature changes. Users can customize notifications for specific weather conditions such as rain, snow, or heatwaves. The app also offers sunrise and sunset times, air quality index updates, and pollen counts for allergy sufferers. With an intuitive interface and interactive graphics, WeatherWise makes understanding the weather easy and engaging. Perfect for travelers, outdoor enthusiasts, and anyone who wants to plan their day with confidence. The app ensures you are always prepared for changing weather conditions, whether at home or on the go.",
+    "size": 20,
+    "reviews": 900,
+    "ratingAvg": 4.1,
+    "downloads": 38000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/CrLjh1K/demo-app-5.webp",
+    "title": "MusicVibes",
+    "companyName": "TuneWorks",
+    "description": "MusicVibes is a premium music streaming app that lets you explore millions of songs, playlists, and podcasts. It offers curated playlists for every mood, genre, and activity, as well as personalized recommendations based on listening habits. Users can create and share playlists, download songs for offline listening, and enjoy high-quality audio streaming. MusicVibes also features lyrics integration, live radio, and social features that allow sharing favorite tracks with friends. The app’s smart search and AI-powered discovery make finding new music effortless. Whether you are a casual listener or a music enthusiast, MusicVibes provides an immersive and uninterrupted audio experience. Perfect for home, work, travel, or fitness sessions, it keeps your music vibes flowing all day.",
+    "size": 70,
+    "reviews": 3000,
+    "ratingAvg": 4.9,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 2385 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/8D2BFJt3/demo-app-6.webp",
+    "title": "SleepWell",
+    "companyName": "Mindful Apps",
+    "description": "SleepWell is a holistic sleep improvement app that helps users fall asleep faster, stay asleep longer, and wake up refreshed. It offers guided meditations, calming soundscapes, sleep stories, and bedtime routines tailored to individual sleep patterns. The app tracks sleep quality using smart analytics, providing insights into sleep cycles, duration, and disturbances. Users can set sleep goals, receive gentle wake-up alarms, and monitor progress over time. SleepWell also provides tips for healthy sleep habits and relaxation techniques to reduce stress before bedtime. With a soothing interface and scientifically-backed content, SleepWell is perfect for anyone struggling with insomnia or looking to improve overall sleep quality. The app makes restful nights accessible and sustainable.",
+    "size": 33,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 455 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/whK9w3r1/9391723.png",
+    "title": "LanguageMaster",
+    "companyName": "Polyglot Inc",
+    "description": "LanguageMaster is an interactive language learning app designed to help users master new languages quickly and effectively. It offers structured lessons, vocabulary drills, pronunciation guides, and conversational practice. Users can track progress, earn badges, and participate in challenges to stay motivated. The app also includes cultural insights, idiomatic expressions, and real-world scenarios for practical language application. Speech recognition technology helps refine pronunciation and fluency. With offline access and a variety of languages, LanguageMaster is ideal for students, travelers, and professionals seeking to expand their linguistic skills. The engaging interface and gamified learning experience make mastering languages fun and achievable.",
+    "size": 80,
+    "reviews": 1600,
+    "ratingAvg": 4.6,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/4RNJdV9n/applestore-6605189-640.png",
+    "title": "GameArena",
+    "companyName": "FunZone",
+    "description": "GameArena is a dynamic multiplayer gaming platform that connects players worldwide in competitive and casual games. Featuring a wide variety of game genres, including strategy, action, puzzles, and more, it offers both solo challenges and collaborative gameplay. Users can participate in tournaments, earn rewards, and track their performance stats to improve skills. GameArena’s matchmaking system ensures fair play and balanced competition. The app also includes live chat, friend invites, and community events to foster interaction and engagement. Regular updates bring new games, features, and challenges to keep the experience fresh and exciting. Ideal for casual gamers and competitive enthusiasts, GameArena makes online gaming social, fun, and immersive.",
+    "size": 120,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2880 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/qMZMsjmf/podcast-7477531-1280.png",
+    "title": "MeditateNow",
+    "companyName": "ZenApps",
+    "description": "MeditateNow is a comprehensive mindfulness and meditation app that guides users towards stress reduction, improved focus, and better mental well-being. It provides hundreds of guided meditation sessions for various levels, including techniques for stress relief, anxiety reduction, sleep enhancement, and emotional balance. Users can track meditation streaks, set reminders, and access calming music and soundscapes for enhanced relaxation. The app also offers breathing exercises, mood tracking, and personalized daily mindfulness routines. Regularly updated content ensures variety and progression in meditation skills. MeditateNow is perfect for beginners seeking calm and experts refining their meditation practice. It fosters a healthier mind and promotes long-term mental wellness.",
+    "size": 28,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 48000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/MkrcsvkK/talk-7249643-640.webp",
+    "title": "CryptoTrack",
+    "companyName": "FinTech Labs",
+    "description": "CryptoTrack is an all-in-one cryptocurrency portfolio management app that allows users to monitor prices, track investments, and stay updated with market trends. It provides real-time data on thousands of cryptocurrencies, including price alerts, market capitalization, and trading volume. Users can track their portfolio performance, set price triggers, and analyze historical data to make informed investment decisions. The app includes news feeds, insights, and charts to guide users through market volatility. Secure authentication ensures safe handling of sensitive investment information. With customizable dashboards and notifications, CryptoTrack is ideal for beginners and experienced crypto traders alike. The app makes crypto investing smarter, more accessible, and highly convenient.",
+    "size": 45,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/CpmMMdRb/whatsapp-icon-6739346-960-720.jpg",
+    "title": "QuickNotes",
+    "companyName": "Productivity Co",
+    "description": "QuickNotes is a feature-rich note-taking app designed to capture ideas, reminders, and tasks efficiently. It allows users to create, organize, and categorize notes with tags, folders, and color codes for easy retrieval. Users can attach images, files, and voice notes, making it perfect for multimedia note-taking. QuickNotes supports cloud sync across devices, ensuring notes are accessible anytime, anywhere. With search, reminders, and collaboration features, users can share notes with teams or friends seamlessly. The app also provides customizable themes and a distraction-free writing interface. QuickNotes is perfect for students, professionals, and creatives seeking a powerful and reliable way to stay organized.",
+    "size": 22,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 605 }
+    ]
+  }
+]

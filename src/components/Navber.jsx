@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router";
 const Navber = () => {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm px-5 lg:px-10 " >
+      <div className="navbar bg-base-100  px-5 lg:px-13 " >
         <div className="navbar-start ">
           <div className="dropdown pr-22 lg:pr-0">
             <div tabIndex={0} role="button" className=" lg:hidden">
@@ -39,7 +39,7 @@ const Navber = () => {
               </li>
             </ul>
           </div>
-          <img className="w-10" src="/public/pics/logo.png" alt="" />
+          <img className="w-10" src="/pics/logo.png" alt="" />
           <Link to={'home'} className=" font-bold text-xl text-[#632EE3] ml-2">HERO.IO</Link>
         </div>
         <div className="navbar-center hidden lg:flex">

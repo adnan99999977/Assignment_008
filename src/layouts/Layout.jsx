@@ -1,15 +1,20 @@
-import Navber from "../components/Navber"
-import Footer from "../components/Footer"
-import { Outlet } from "react-router"
+import Navber from "../components/Navber";
+import Footer from "../components/Footer";
+import { Outlet, useNavigation } from "react-router";
+import Loading from "../components/Loading";
 
 const Layout = () => {
-  return (
-    <div className="flex justify-center flex-col h-screen">
-        <Navber/>
-       <div className="flex-1"> <Outlet/></div>
-        <Footer/>
-    </div>
-  )
-}
+  const navigation = useNavigation();
 
-export default Layout
+  return (
+    <div className="min-h-screen flex justify-center flex-col">
+      <Navber />
+      <div className="flex-1">
+        {navigation.state === "loading" ? <Loading /> : <Outlet />}
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Layout;

@@ -1,8 +1,17 @@
-import React from 'react'
+import { useLoaderData } from "react-router"
+import Hero from "../components/Hero"
+
+
 
 const Home = () => {
+  
+  const data = useLoaderData()
+  
   return (
-    <div>Home</div>
+
+    <div>
+     <Hero data={data}/>
+    </div>
   )
 }
 

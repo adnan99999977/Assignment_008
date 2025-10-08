@@ -14,8 +14,18 @@ const router = createBrowserRouter([
     element:<Layout/>,
     children:[
       {
+         index:true,
+         element:<Home/>,
+      },
+      {
          path:'home',
-         element:<Home/>
+         element:<Home/>,
+         loader: async()=>{
+         const res = await fetch('/data.json')
+         const data = await res.json()
+          return data
+         }
+         
       },
       {
          path:'apps',
@@ -25,14 +35,13 @@ const router = createBrowserRouter([
          path:'installation',
          element:<Installation/>
       },
-
+      
     ]
   }
 ])
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router}/>
+   <RouterProvider router={router} />
   </StrictMode>,
 )
