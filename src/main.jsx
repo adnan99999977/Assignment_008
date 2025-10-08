@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import Apps from './pages/Apps'
 import Installation from './pages/Installation'
 import ErrorForUrl from './pages/ErrorForUrl'
-import Error from './pages/Error'
+import CardDetails from './pages/CardDetails'
 
 
 const router = createBrowserRouter([
@@ -22,20 +22,18 @@ const router = createBrowserRouter([
       {
          path:'home',
          element:<Home/>,
-         loader: async()=>{
-         const res = await fetch('/data.json')
-         const data = await res.json()
-          return data
-         },
-         
       },
       {
          path:'apps',
-         element:<Apps/>
+         element:<Apps/>,
       },
       {
          path:'installation',
          element:<Installation/>
+      },
+      {
+         path:'card_details/:id',
+         element:<CardDetails/>
       },
       {
         path:'*',

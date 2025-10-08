@@ -1,15 +1,18 @@
+import Loading from "../components/Loading";
 import { useNavigate } from "react-router-dom";
 
-const Card = ({ card }) => {
-  const navigate = useNavigate();
 
+const AllApps = ({card}) => {
+  const navigate = useNavigate()
+ if (!card) return <Loading/>;
   const { title,image,downloads,ratingAvg,id } = card;
-   const handleNav = () => {
+  const handleNav = () => {
     navigate(`/card_details/${id}`); 
   }
- 
+
+
   return (
-    <div onClick={()=>handleNav()} className="card w-76 lg:w-full mx-auto shadow-lg p-4 rounded-lg cursor-pointer transition-all hover:scale-103 duration-200 mb-10 border border-gray-300 ">
+    <div onClick={()=>handleNav()} className="card w-76 lg:w-full mx-auto shadow-lg p-4 rounded-lg transition-all hover:scale-103 duration-200 mb-10 border border-gray-300">
       <figure>
         <img  className="w-60 object-cover border-b border-gray-300"
           src={image}
@@ -26,6 +29,6 @@ const Card = ({ card }) => {
       </div>
     </div>
   );
-};
+}
 
-export default Card;
+export default AllApps

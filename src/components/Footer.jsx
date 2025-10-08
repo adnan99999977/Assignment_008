@@ -7,12 +7,10 @@ const Footer = () => {
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
             <div className="col-span-2">
               <div > 
-               <div className="flex justify-center items-center gap-3">
-                 <img className="w-10" src="/pics/logo.png" alt="" />
-                <h2 className="text-2xl font-bold text-gray-900">
+              
+                <h2 className="text-2xl font-extrabold text-gray-900">
                   HERO.IO
                 </h2>
-               </div>
 
                 <p className="mt-4 text-gray-500">
                   Hero.io is a creative platform built to showcase modern web applications, powerful UI designs, and developer-friendly tools. Our goal is to inspire and empower developers to turn ideas into reality — fast, clean, and beautifully.
@@ -28,15 +26,14 @@ const Footer = () => {
                 </label>
 
                 <div className="border border-gray-300 p-2 focus-within:ring-3 sm:flex sm:items-center rounded-md sm:gap-4 pb-4">
-                  <input
-                    type="email"
-                    id="UserEmail"
-                    placeholder="xxxxxx@gmail.com"
+                  <textarea
+                    type="text"
+                    placeholder="send a Feedback"
                     className="w-full  focus:border-transparent focus:ring-transparent sm:text-sm pb-5"
                   />
 
-                  <button className="mt-1 w-full bg-gradient-to-r  from-[#632EE3] to-[#9F62F2] rounded-tr-3xl rounded-bl-3xl px-6 py-3 text-sm font-bold text-white   sm:mt-0 sm:w-auto sm:shrink-0">
-                    Sign Up
+                  <button className="mt-1 w-full bg-gradient-to-r  from-[#632EE3] to-[#9F62F2] rounded-tr-full cursor-pointer rounded-bl-full px-6 py-3 text-sm font-bold text-white transition-all hover:rounded-tl-full hover:rounded-br-full duration-200 sm:mt-0 sm:w-auto sm:shrink-0">
+                    Send
                   </button>
                 </div>
               </form>
@@ -364,7 +361,7 @@ const Footer = () => {
         <div className="mt-8 border-t border-gray-300 pt-8">
           <div className="sm:flex sm:justify-between">
             <p className="text-xs text-gray-500">
-              &copy; 2022. Company Name. All rights reserved.
+              &copy; 2025. Hero,io . All rights reserved.
             </p>
 
             <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">

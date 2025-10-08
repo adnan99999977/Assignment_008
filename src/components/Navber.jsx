@@ -39,8 +39,10 @@ const Navber = () => {
               </li>
             </ul>
           </div>
-          <img className="w-10" src="/pics/logo.png" alt="" />
-          <Link to={'home'} className=" font-bold text-xl text-[#632EE3] ml-2">HERO.IO</Link>
+         <Link to={'/home'} className="flex items-center justify-center">
+           <img className="w-10" src="/pics/logo.png" alt="" />
+          <p className=" font-bold text-xl text-[#632EE3] ml-2">HERO.IO</p>
+         </Link >
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className=" flex gap-8 font-semibold">

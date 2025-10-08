@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import AllCards from "./AllCards";
 
 const Hero = ({data}) => {
@@ -52,6 +52,7 @@ const Hero = ({data}) => {
 
         <AllCards data={data}/>
       </section>
+      <Link to={'/apps'} className="text-center mx-auto mb-10 w-30 h-10 rounded-sm bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white flex justify-center items-center ">See All</Link>
     </>
   );
 };

@@ -1,16 +1,23 @@
-import { useLoaderData } from "react-router"
+
 import Hero from "../components/Hero"
+import Loading from "../components/Loading";
+import useFetch from "../hooks/useFetch";
+
 
 
 
 const Home = () => {
-  
-  const data = useLoaderData()
+   const { data,loading
+    
+    } = useFetch("/data.json");
+      if (loading) return <Loading/>;
+
   
   return (
 
     <div>
-     <Hero data={data}/>
+      
+       {data && <Hero data={data} />}
     </div>
   )
 }
