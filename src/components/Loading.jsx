@@ -1,11 +1,10 @@
-import React from 'react'
+import ScaleLoader from "react-spinners/ScaleLoader";
+
 
 const Loading = () => {
   return (
-    <div className="flex justify-center items-center">
-        <span className="loading loading-spinner loading-xl"></span>
-        <span className="loading loading-spinner loading-xl"></span>
-        <span className="loading loading-spinner loading-xl"></span>
+     <div className="flex justify-center items-center h-[80vh]">
+      <ScaleLoader/>
     </div>
   )
 }
