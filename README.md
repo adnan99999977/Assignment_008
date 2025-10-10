@@ -1,16 +1,40 @@
-# React + Vite
+# Hero Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hero Apps** is a modern React application built with **Vite**, **TailwindCSS**, and **DaisyUI**. It features interactive components, routing with **React Router**, charts with **Recharts**, notifications with **React Toastify**, and global icons with **Lucide React**.  
 
-Currently, two official plugins are available:
+The project is optimized for deployment on **Cloudflare Pages**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Table of Contents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Project Setup](#project-setup)  
+- [Available Scripts](#available-scripts)  
+- [Environment Variables](#environment-variables)  
+- [Cloudflare Pages Deployment](#cloudflare-pages-deployment)  
+- [Notes](#notes)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Clean and responsive UI with TailwindCSS and DaisyUI.  
+- SPA routing using React Router v7.  
+- Interactive charts using Recharts.  
+- Toast notifications using React Toastify. 
+- Optimized for performance with Vite.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React 18 + Vite  
+- **UI Framework:** TailwindCSS + DaisyUI + Material UI  
+- **Routing:** React Router v7  
+- **Charts:** Recharts  
+- **Notifications:** React Toastify  
+- **Icons:** Lucide React  
+
+---
