@@ -9,13 +9,8 @@ The project is optimized for deployment on **Cloudflare Pages**.
 ## Table of Contents
 
 - [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Project Setup](#project-setup)  
-- [Available Scripts](#available-scripts)  
-- [Environment Variables](#environment-variables)  
-- [Cloudflare Pages Deployment](#cloudflare-pages-deployment)  
-- [Notes](#notes)  
-
+- [Tech Stack](#tech-stack)
+  
 ---
 
 ## Features
