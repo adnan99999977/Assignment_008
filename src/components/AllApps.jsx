@@ -10,7 +10,6 @@ const AllApps = ({card}) => {
     navigate(`/card_details/${id}`); 
   }
 
-
   return (
     <div onClick={()=>handleNav()} className="card w-76 lg:w-full mx-auto shadow-lg p-4 rounded-lg transition-all hover:scale-103 duration-200 mb-10 border border-gray-300">
       <figure>

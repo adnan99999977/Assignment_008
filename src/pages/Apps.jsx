@@ -1,15 +1,22 @@
 
+import { useState } from "react";
 import AllApps from "../components/AllApps";
 import Loading from "../components/Loading";
 import useFetch from "../hooks/useFetch";
 
 
+
+
+
 const Apps = () => {
   const { data,loading} = useFetch("/data.json");
-   if (loading) return <Loading />; 
-  
+  const [value,setValue] = useState('')
+       let term = value.trim().toLocaleLowerCase()
+       let searchedProducts = term? data.filter(product=>product.title.toLocaleLowerCase().includes(term)):data
+
+  if (loading) return <Loading />; 
   return (
-    <div className="pt-15 pb-20 bg-gradient-to-t from-[#fefeffbe] to-[#cccacc95]">
+    <div className="pt-15 pb-20 bg-gradient-to-t from-[#fefeffbe] to-[#cccacc3d]">
       <div className="text-center mb-8">
         <h1 className="font-bold text-3xl mb-4">Our All Applications</h1>
         <p className="text-gray-500 ">
@@ -17,7 +24,7 @@ const Apps = () => {
         </p>
       </div>
       <div className="flex flex-col lg:flex-row justify-between w-11/12  mx-auto mb-15">
-        <h1 className="font-semibold text-xl">({data.length}) Apps Found</h1>
+        <h1 className="font-semibold text-2xl pl-8">({searchedProducts.length}) Apps Found</h1>
         <label className="input ">
           <svg
             className="h-[1em]  opacity-50"
@@ -35,13 +42,13 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input  type="search" required placeholder="Search Apps  " />
+          <input value={value} onChange={(e)=>setValue(e.target.value)} type="search" required placeholder="Search Apps  " />
         </label>
       </div>
       <div>
         <section className="cardsBox grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto gap-3 w-11/12">
        {
-        data.map(card => <AllApps card={card} key={card.id}/>)
+        searchedProducts.length===0?<div className="flex justify-center items-center text-2xl lg:text-5xl font-bold col-span-4"> <span className="text-red-700">SORRY!!</span><br /> NO ITEM MATCHED</div>:searchedProducts.map(card => <AllApps card={card} key={card.id}/>)
       }
         </section>
       </div>
