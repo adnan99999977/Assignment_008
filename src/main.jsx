@@ -10,13 +10,14 @@ import Installation from "./pages/Installation";
 import ErrorForUrl from "./pages/ErrorForUrl";
 import CardDetails from "./pages/CardDetails";
 import { Bounce, ToastContainer } from "react-toastify";
-import Error from "./pages/Error/Error";
+import Error from "./Error";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    errorElement: <Error />,
+    errorElement:<Error/>,
     children: [
       {
         index: true,
@@ -38,12 +39,12 @@ const router = createBrowserRouter([
         path: "card_details/:id",
         element: <CardDetails />,
       },
-      {
+    ],
+  },
+   {
         path: "*",
         element: <ErrorForUrl />,
       },
-    ],
-  },
 ]);
 
 createRoot(document.getElementById("root")).render(

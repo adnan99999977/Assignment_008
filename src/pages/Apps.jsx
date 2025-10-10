@@ -3,6 +3,7 @@ import { useState } from "react";
 import AllApps from "../components/AllApps";
 import Loading from "../components/Loading";
 import useFetch from "../hooks/useFetch";
+import Error from "../Error";
 
 
 
@@ -48,7 +49,10 @@ const Apps = () => {
       <div>
         <section className="cardsBox grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto gap-3 w-11/12">
        {
-        searchedProducts.length===0?<div className="flex justify-center items-center text-2xl lg:text-5xl font-bold col-span-4"> <span className="text-red-700">SORRY!!</span><br /> NO ITEM MATCHED</div>:searchedProducts.map(card => <AllApps card={card} key={card.id}/>)
+        searchedProducts.length===0?<div className="flex justify-center items-center font-bold col-span-4">
+
+          <Error/>
+        </div>:searchedProducts.map(card => <AllApps card={card} key={card.id}/>)
       }
         </section>
       </div>

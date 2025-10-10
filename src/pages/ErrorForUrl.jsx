@@ -15,7 +15,7 @@ const ErrorForUrl = () => {
         </p>
         <NavLink
           to={"/home"}
-          className="  w-30 flex items-center justify-center h-10 bg-gradient-to-r  from-[#c9bbec] to-[#4f76e3] text-center mx-auto rounded-sm text-white"
+          className="  w-30 flex items-center justify-center h-10 bg-gradient-to-r  from-[#5e31cd] to-[#254fc2] text-center mx-auto rounded-sm text-white"
         >
           Go Back!
         </NavLink>
